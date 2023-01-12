@@ -3,7 +3,7 @@ let age= prompt ("how old are you?")
 let birthyear= prompt ("what year were you born")
 let presentyear= age + birthyear
 let period= "We are currently in year "
-let answer =  presentyear + period
+let answer = period + presentyear
 console.log(answer)
 
 var fName = prompt ("what is your first name?")
